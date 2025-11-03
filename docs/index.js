@@ -60,7 +60,6 @@ switch (sound) {
 function animation(currentKey) {
    let active = document.querySelector("." + currentKey);
    active.classList.add("pressed");
-
    setTimeout(function() {
       active.classList.remove("pressed")
    }, 200);
